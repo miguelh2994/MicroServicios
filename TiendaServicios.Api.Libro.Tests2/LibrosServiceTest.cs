@@ -65,7 +65,7 @@ namespace TiendaServicios.Api.Libro.Tests2
         [Fact]
         public async void GetLibros()
         {
-            System.Diagnostics.Debugger.Launch();
+            //Prueba de subida
             var mockContexto = CrearContexto();
             var mockConfig = new MapperConfiguration(cfg =>
             {
